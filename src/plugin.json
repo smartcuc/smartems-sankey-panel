@@ -1,14 +1,14 @@
 {
   "type": "panel",
   "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "id": "smartems-sankey-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "smartEMS Sankey Panel",
     "author": {
-      "name": "Your Name"
+      "name": "Ruediger Koenen"
     },
-    "keywords": ["Simple"],
+    "keywords": ["Sankey"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
