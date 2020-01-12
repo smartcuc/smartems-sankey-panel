@@ -1,6 +1,24 @@
 import React, { PureComponent } from 'react';
-import { FormField } from '@grafana/ui';
-import { PanelEditorProps } from '@grafana/data';
+import {
+  FormField,
+  ThresholdsEditor,
+  PanelOptionsGrid,
+  ValueMappingsEditor,
+  FieldDisplayEditor,
+  FieldPropertiesEditor,
+  Switch,
+  PanelOptionsGroup,
+  DataLinksEditor,
+} from '@grafana/ui';
+
+import { 
+  PanelEditorProps,
+  FieldDisplayOptions,
+  ThresholdsConfig,
+  ValueMapping,
+  FieldConfig,
+  DataLink,
+} from '@grafana/data';
 
 import { SmartemsSankeyOptions } from './types';
 
