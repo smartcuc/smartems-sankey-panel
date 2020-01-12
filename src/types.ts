@@ -1,7 +1,7 @@
-export interface SimpleOptions {
+export interface SmartemsSankeyOptions {
   text: string;
 }
 
-export const defaults: SimpleOptions = {
+export const defaults: SmartemsSankeyOptions = {
   text: 'The default text!',
 };
