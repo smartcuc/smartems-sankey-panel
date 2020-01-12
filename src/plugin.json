@@ -1,6 +1,6 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
+  "name": "smartEMS Sankey",
   "id": "smartems-sankey-panel",
 
   "info": {
