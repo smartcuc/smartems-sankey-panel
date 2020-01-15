@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+
 import {
   FormField,
   ThresholdsEditor,
@@ -14,7 +15,7 @@ import {
 import { 
   PanelEditorProps,
   FieldDisplayOptions,
-  ThresholdsConfig,
+  Threshold,
   ValueMapping,
   FieldConfig,
   DataLink,

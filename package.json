@@ -6,13 +6,22 @@
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
-    "watch": "grafana-toolkit plugin:dev --watch"
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Ruediger Koenen",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "next",
-    "@grafana/toolkit": "next",
-    "@grafana/ui": "next"
-  }
+    "@babel/core": "^7.8.3",
+    "@grafana/data": "^6.5.2",
+    "@grafana/toolkit": "^6.5.2",
+    "@grafana/ui": "^6.5.2",
+    "@storybook/addon-actions": "^5.3.3",
+    "@storybook/addon-links": "^5.3.3",
+    "@storybook/addons": "^5.3.3",
+    "@storybook/react": "^5.3.3",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {}
 }
